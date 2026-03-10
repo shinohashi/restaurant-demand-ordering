@@ -69,7 +69,7 @@ AI需要予測
 | ファイル | 説明 |
 |--------|------|
 | 📊 restaurant-demand-ordering-model.xlsx | メインのExcel発注管理ツール |
-| 📋 manual.html | 取扱説明書 |
+| 📋 restaurant-demand-ordering-manual.html| 取扱説明書 |
 
 ---
 
