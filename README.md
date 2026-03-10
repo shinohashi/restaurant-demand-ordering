@@ -62,6 +62,33 @@ AI需要予測
 ↓  
 仕入発注  
 
+
+## 📊 System Architecture
+
+```mermaid
+flowchart LR
+    A[POS Sales Data]
+    B[External Data<br/>Weather / Events / Foot traffic]
+    C[AI Demand Forecast]
+
+    D[Sales Forecast Sheet]
+    E[Recipe Master]
+    F[Ingredient Consumption]
+
+    G[Inventory]
+    H[Order Quantity Calculation]
+    I[Purchase Order]
+
+    A --> C
+    B --> C
+    C --> D
+    D --> F
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+```
+
 ---
 
 ## 📥 ダウンロード
